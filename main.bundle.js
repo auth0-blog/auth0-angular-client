@@ -322,7 +322,7 @@ var AuthService = (function () {
             domain: 'bk-samples.auth0.com',
             audience: 'https://contacts.mycompany.com/',
             scope: 'openid get:contacts post:contacts',
-            redirectUri: this.document.location.origin + "/callback"
+            redirectUri: "https://auth0-blog.github.io/auth0-angular-client/callback"
         };
         this.isAuthenticated = __WEBPACK_IMPORTED_MODULE_4_auth0_web__["isAuthenticated"];
         this.handleAuth = __WEBPACK_IMPORTED_MODULE_4_auth0_web__["handleAuthCallback"];
